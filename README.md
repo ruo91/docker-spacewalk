@@ -2,8 +2,7 @@ Dockerfile - Spacewalk
 ======================
 ### Run ###
 ```
-root@ruo91:~# docker run --privileged=true -d --name="spacewalk" -h "spackewalk" \
--p 444:443 ruo91/spacewalk
+root@ruo91:~# docker run --privileged=true -d --name="spacewalk" ruo91/spacewalk
 ```
 or
 
@@ -15,8 +14,7 @@ root@ruo91:~# docker build --rm -t spacewalk /opt/docker-spacewalk
 
 ### Run ###
 ```
-root@ruo91:~# docker run --privileged=true -d --name="spacewalk" -h "spackewalk" \
--p 444:443 spacewalk
+root@ruo91:~# docker run --privileged=true -d --name="spacewalk" spacewalk
 ```
 ```
 root@ruo91:~# docker inspect -f '{{ .NetworkSettings.IPAddress }}' spacewalk
