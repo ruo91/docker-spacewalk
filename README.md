@@ -1,5 +1,11 @@
 Dockerfile - Spacewalk
 ==============================
+### Run ###
+```
+root@ruo91:~# docker run --privileged=true -d --name="spacewalk" -h "spackewalk" ruo91/spacewalk
+```
+or
+
 ### Build ###
 ```
 root@ruo91:~# git clone https://github.com/ruo91/docker-spacewalk /opt/docker-spacewalk
