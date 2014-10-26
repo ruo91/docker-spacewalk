@@ -26,8 +26,8 @@ root@ruo91:~# docker inspect -f '{{ .NetworkSettings.IPAddress }}' spacewalk
 ## Nginx - Reverse proxy ###
 Generating Self-signed Certificate
 ```
-root@ruo91:~# cd /etc/nginx
-root@ruo91:~# mkdir ssl
+root@ruo91:~# mkdir /etc/nginx/ssl
+root@ruo91:~# cd /etc/nginx/ssl
 ```
 
 ```
