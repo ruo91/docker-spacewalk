@@ -69,7 +69,7 @@ writing RSA key
 ```
 root@ruo91:~# openssl x509 -req -days 365 -in spacewalk.csr -signkey spacewalk.key -out spacewalk.crt
 Signature ok
-subject=/C=KR/ST=Seoul/L=Yeongdeungpo-gu/O=Yongbok.net/OU=System Team/CN=spacewalk.yongbok.net/emailAddress=ruo91@yongbok.net
+subject=/C=KR/ST=Seoul/L=Yeongdeungpo-gu/O=Yongbok.net/OU=System Team/CN=spacewalk.example.com/emailAddress=ruo91@yongbok.net
 Getting Private key
 ```
 
